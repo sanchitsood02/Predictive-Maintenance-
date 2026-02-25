@@ -22,6 +22,7 @@ This repository contains statistical analysis and baseline models for the N-CMAP
    ```
 2. Run the analysis:
    ```bash
+   cd src
    python complete_statistical_analysis_final.py
    ```
 
@@ -35,15 +36,21 @@ The raw N-CMAPSS data files are extremely large (several GBs each) and **cannot 
 1.  **Download** the dataset from the official NASA repository:
     *   [NASA Open Data Portal - N-CMAPSS](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)
     *   Direct link to data description: [Prognostics Data Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
-2.  **Place the files** in the root directory of this project.
+2.  **Place the files** in the `data/` directory of this project.
 3.  Ensure the file names match what the scripts expect (e.g., `N-CMAPSS_DS01-005.h5`).
 
 ### Directory Structure
-After downloading, your folder should look like this:
+After downloading and organizing, your folder should look like this:
 ```
 /
-├── N-CMAPSS_DS01-005.h5   <-- Downloaded file
-├── complete_statistical_analysis_final.py
-├── README.md
-└── ...
+├── data/
+│   └── N-CMAPSS_DS01-005.h5   <-- Downloaded file
+├── src/
+│   └── complete_statistical_analysis_final.py
+├── notebooks/
+│   └── N-CMAPSS_Statistical_Analysis.ipynb
+├── report/
+├── results/
+├── figures/
+└── README.md
 ```

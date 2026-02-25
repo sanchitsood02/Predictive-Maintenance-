@@ -19,7 +19,7 @@ print("="*80)
 # Step 1: Load DS01 Development Data
 print("\n1. LOADING DS01 DEVELOPMENT DATA...")
 try:
-    filename = 'N-CMAPSS_DS01-005.h5'
+    filename = '../data/N-CMAPSS_DS01-005.h5'
     
     with h5py.File(filename, 'r') as hdf:
         # Load all development data
