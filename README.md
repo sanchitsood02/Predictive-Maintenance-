@@ -26,4 +26,24 @@ This repository contains statistical analysis and baseline models for the N-CMAP
    ```
 
 ## Dataset
-The analysis uses the N-CMAPSS DS01 dataset. Due to size constraints, the raw `.h5` files are not included in this repository.
+The analysis uses the **N-CMAPSS DS01** dataset (specifically `N-CMAPSS_DS01-005.h5`).
+
+### ⚠️ Important Note on Data
+The raw N-CMAPSS data files are extremely large (several GBs each) and **cannot be hosted directly on GitHub** due to file size limits.
+
+### How to Get the Data
+1.  **Download** the dataset from the official NASA repository:
+    *   [NASA Open Data Portal - N-CMAPSS](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)
+    *   Direct link to data description: [Prognostics Data Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
+2.  **Place the files** in the root directory of this project.
+3.  Ensure the file names match what the scripts expect (e.g., `N-CMAPSS_DS01-005.h5`).
+
+### Directory Structure
+After downloading, your folder should look like this:
+```
+/
+├── N-CMAPSS_DS01-005.h5   <-- Downloaded file
+├── complete_statistical_analysis_final.py
+├── README.md
+└── ...
+```
