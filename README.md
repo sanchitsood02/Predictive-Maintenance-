@@ -161,10 +161,5 @@ This project was an opportunity to apply machine learning to a meaningful indust
 
 Overall, the project helped me strengthen both my technical skills and my understanding of how data science can be applied to practical engineering challenges.
 
-References
-Saxena, A. and Goebel, K. (2008) Turbofan Engine Degradation Simulation Data Set. NASA Ames Prognostics Data Repository.
-Saxena, A., Goebel, K., Simon, D. and Eklund, N. (2008) Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation. PHM08.
-Author
-
 Sanchit Sood
 Final-year undergraduate project in Data Science and Artificial Intelligence
